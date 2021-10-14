@@ -1,0 +1,40 @@
+@charset "utf-8";
+body{ 
+	padding: 0; 
+	margin:  0; 
+} 
+video{
+	position: absolute;
+}
+img {position: absolute;}
+
+.Text1{
+left: 0px;
+bottom: 0px;
+opacity: 0;
+transition: opacity 1s;
+}
+
+.Text1:hover{
+	opacity:.75;
+}
+
+.music{
+left: 21px;
+top: 276px;
+animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.globe{
+left: 200px;
+top: 434px;
+}
